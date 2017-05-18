@@ -8,7 +8,6 @@
     that can be found at https://google.github.io/styleguide/javaguide.html.
     Checkstyle is very configurable. Be sure to read the documentation at
     http://checkstyle.sf.net (or in your downloaded distribution).
-    To completely disable a check, just comment it out or delete it from the file.
     Authors: Max Vetrenko, Ruslan Diachenko, Roman Ivanov.
  -->
 
@@ -179,7 +178,7 @@
     </module>
     <module name="PackageName">
       <!-- GE Customized format for Package name -->
-      <property name="format" value="^com\.ge\.apm(\.[a-z][a-z0-9]*)+$"/>
+      <property name="format" value="^com\.ge\.digital(\.[a-z][a-z0-9]*)+$"/>
       <message key="name.invalidPattern"
         value="Package name ''{0}'' must match pattern ''{1}''."/>
     </module>
